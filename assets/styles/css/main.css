@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Salsa";
+  src: url("../../fonts/Salsa-Regular.ttf");
+}
+body {
+  margin: 0;
+  color: inherit;
+  font-family: "Montserrat";
+}
+
+main {
+  padding-top: 64px;
+}
+
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #320a3b;
+  color: #041a11;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .div-brand {
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+nav .div-brand h1 {
+  color: white;
+  font-family: "Salsa";
+  margin: 0;
+}
+nav .div-nav-items ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav .div-nav-items ul li {
+  list-style: none;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: auto 10px;
+  padding: 8px;
+}
+nav .div-nav-items ul li:hover, nav .div-nav-items ul li:active {
+  color: white;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+nav .div-nav-items ul li.li-best-option {
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #c24a64;
+}
+nav .div-nav-items ul li.li-best-option:hover, nav .div-nav-items ul li.li-best-option:active {
+  color: #a5304d;
+  background-color: white;
+  border-bottom: none;
+}
+
+.header-main {
+  padding: 20px;
+  background-image: url("../../images/freedom.jpg");
+  height: 600px;
+}
+.header-main h1 {
+  margin: 0;
+  color: whitesmoke;
+  font-size: 1.6rem;
+  margin-left: 20px;
+}
+
+.section-plan {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #591568;
+}
+.section-plan h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+.section-plan .ul-plans {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.section-plan .ul-plans > li {
+  background-color: #e7d39f;
+  box-shadow: 5px 5px 8px black;
+  list-style: none;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  padding: 10px;
+  margin: 20px 10px 0 10px;
+  position: relative;
+}
+.section-plan .ul-plans > li article {
+  box-sizing: border-box;
+}
+.section-plan .ul-plans > li article aside {
+  padding: 4px;
+  background-color: #522d5b;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.section-plan .ul-plans > li article aside p {
+  margin: 0;
+  color: gold;
+  font-size: 0.8rem;
+}
+.section-plan .ul-plans > li article .p-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.section-plan .ul-plans > li article ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.section-plan .ul-plans > li article ul li {
+  list-style: none;
+  margin: 5px;
+}
+.section-plan .ul-plans > li:hover, .section-plan .ul-plans > li:active {
+  background-color: #e2ba54;
+  cursor: pointer;
+}
+.section-plan .ul-plans > li.li-plus {
+  background-color: #fb7b6b;
+}
+.section-plan .ul-plans > li.li-plus:hover, .section-plan .ul-plans > li.li-plus:active {
+  background-color: #f75944;
+}
+
+.section-reasons {
+  padding-top: 0;
+  text-align: center;
+  color: white;
+  background-color: #480858;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-reasons h2 {
+  width: 60%;
+  margin: 0;
+  padding-top: 15px;
+}
+.section-reasons ul {
+  padding: 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section-reasons ul li {
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+.section-reasons ul li div {
+  background-color: rebeccapurple;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 6px black;
+}
+.section-reasons ul li p {
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #260130;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  display: inline-block;
+  margin: 0 20px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+footer p:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */

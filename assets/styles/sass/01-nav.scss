@@ -1,0 +1,70 @@
+
+nav{
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+    background-color: #320a3b;
+    color: rgba($color: #041a11, $alpha: 1.0);
+
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .div-brand{
+
+        margin-left: 15px;
+        font-size:1.5rem;
+        
+        h1{
+            color: white;
+            font-family: 'Salsa';
+
+            margin: 0;
+        }
+    }
+
+    .div-nav-items{
+
+        ul{
+            margin: 0;
+            padding: 0; 
+
+            display: flex;
+            
+            li{
+                list-style: none;
+
+                color: whitesmoke;
+                font-size: 1.1rem;
+                font-weight: 700;
+
+                margin: auto 10px;
+                padding: 8px;
+
+                &:hover,&:active{
+                    color: white;
+                    border-bottom: 2px solid white;
+                    cursor: pointer;
+                }
+
+                &.li-best-option{
+                    border-radius: 5px;
+                    color: whitesmoke;
+                    background-color: rgba($color: #c24a64, $alpha: 1.0);
+                    &:hover,&:active{
+                        color: #a5304d;
+                        background-color: white;
+                        border-bottom: none;
+                    }
+                    
+                }
+
+            }
+        }
+    }
+}
