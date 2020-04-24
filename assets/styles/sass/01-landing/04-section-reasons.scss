@@ -20,7 +20,7 @@
 
     ul{
         padding: 0;
-        width: 80%;
+        width: 60%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -38,12 +38,24 @@
             padding: 10px;
 
             div{
-                background-color: rebeccapurple;
                 width: 150px;   
                 height: 150px;
-                border-radius: 50%;
-                box-shadow: 4px 4px 6px black;
+                
+                &.div-happy{
+                    background: url('../../../icons/happyCustomer.svg') center/cover no-repeat;
+                }
+
+                &.div-uptime{
+                    background: url('../../../icons/upTime.svg') center/cover no-repeat;
+                }
+
+                &.div-fast{
+                    background: url('../../../icons/fast.svg') center/cover no-repeat;
+                }
             }
+
+            
+
             
             p{
                 font-weight: bold;

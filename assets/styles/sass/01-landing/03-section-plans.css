@@ -12,12 +12,14 @@
 }
 
 .section-plan .ul-plans {
+  padding-left: 25%;
+  padding-right: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -26,7 +28,7 @@
 }
 
 .section-plan .ul-plans > li {
-  background-color: #e7d39f;
+  background: linear-gradient(45deg, #fb7b6b, #e7d39f);
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
   list-style: none;
@@ -54,7 +56,7 @@
 
 .section-plan .ul-plans > li article aside p {
   margin: 0;
-  color: gold;
+  color: goldenrod;
   font-size: .8rem;
 }
 
@@ -83,15 +85,16 @@
 }
 
 .section-plan .ul-plans > li:hover, .section-plan .ul-plans > li:active {
-  background-color: #e2ba54;
+  background: linear-gradient(45deg, #fb7b6b 40%, #e7d39f);
   cursor: pointer;
 }
 
 .section-plan .ul-plans > li.li-plus {
-  background-color: #fb7b6b;
+  color: whitesmoke;
+  background: linear-gradient(45deg, #522d5b 5%, #d7385e, #fb7b6b);
 }
 
 .section-plan .ul-plans > li.li-plus:hover, .section-plan .ul-plans > li.li-plus:active {
-  background-color: #f75944;
+  background: linear-gradient(45deg, #522d5b 40%, #d7385e, #fb7b6b);
 }
 /*# sourceMappingURL=03-section-plans.css.map */

@@ -19,19 +19,13 @@ nav {
           align-items: center;
 }
 
-nav .div-brand {
-  margin-left: 15px;
-  font-size: 1.5rem;
-}
-
-nav .div-brand h2 {
-  font-family: 'Salsa';
-  margin: 2px;
-}
-
-nav .div-brand h2 a {
-  color: whitesmoke;
-  text-decoration: none;
+nav .a-brand div {
+  margin-left: 10px;
+  width: 3rem;
+  height: 3rem;
+  background: url("../../../icons/uHost.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 nav .div-nav-items ul {

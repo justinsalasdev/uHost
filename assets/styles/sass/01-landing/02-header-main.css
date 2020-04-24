@@ -1,4 +1,5 @@
 .header-main {
+  text-align: center;
   padding-top: 40px;
   padding-left: 20px;
   background-image: url("../../../images/freedom.jpg");
@@ -8,8 +9,15 @@
   height: 600px;
 }
 
+.header-main h1 {
+  color: whitesmoke;
+  margin: 0;
+  font-family: 'Salsa';
+  font-size: 5rem;
+}
+
 .header-main h2 {
-  color: #320a3b;
+  color: whitesmoke;
   top: 150px;
   right: 300px;
   margin: 0;
