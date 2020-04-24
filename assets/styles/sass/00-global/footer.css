@@ -15,14 +15,14 @@
           justify-content: center;
 }
 
-.footer-main p {
+.footer-main > p {
   display: inline-block;
   margin: 0 20px;
   color: whitesmoke;
   font-weight: bold;
 }
 
-.footer-main p:hover {
+.footer-main > p:hover {
   cursor: pointer;
 }
 /*# sourceMappingURL=footer.css.map */

@@ -10,7 +10,7 @@
     background-color: #260130;
     display: flex;
     justify-content: center;
-        p{
+        &>p{
             display: inline-block;
             margin: 0 20px;
             color: whitesmoke;

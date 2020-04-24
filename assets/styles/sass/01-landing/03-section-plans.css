@@ -5,13 +5,13 @@
   background-color: #591568;
 }
 
-.section-plan h1 {
+.section-plan > h2 {
   margin: 0;
   font-size: 2rem;
   color: whitesmoke;
 }
 
-.section-plan .ul-plans {
+.section-plan > .ul-plans {
   padding-left: 25%;
   padding-right: 25%;
   display: -webkit-box;
@@ -27,7 +27,7 @@
       flex-wrap: wrap;
 }
 
-.section-plan .ul-plans > li {
+.section-plan > .ul-plans > li {
   background: linear-gradient(45deg, #fb7b6b, #e7d39f);
   -webkit-box-shadow: 5px 5px 8px black;
           box-shadow: 5px 5px 8px black;
@@ -41,12 +41,12 @@
   position: relative;
 }
 
-.section-plan .ul-plans > li article {
+.section-plan > .ul-plans > li > article {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.section-plan .ul-plans > li article aside {
+.section-plan > .ul-plans > li > article > footer {
   padding: 3.9px;
   background-color: #522d5b;
   position: absolute;
@@ -54,18 +54,18 @@
   right: 5px;
 }
 
-.section-plan .ul-plans > li article aside p {
+.section-plan > .ul-plans > li > article > footer > p {
   margin: 0;
   color: goldenrod;
   font-size: .8rem;
 }
 
-.section-plan .ul-plans > li article .p-price {
+.section-plan > .ul-plans > li > article > .p-price {
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.section-plan .ul-plans > li article ul {
+.section-plan > .ul-plans > li > article > ul {
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,22 +79,22 @@
           align-items: stretch;
 }
 
-.section-plan .ul-plans > li article ul li {
+.section-plan > .ul-plans > li > article > ul > li {
   list-style: none;
   margin: 5px;
 }
 
-.section-plan .ul-plans > li:hover, .section-plan .ul-plans > li:active {
+.section-plan > .ul-plans > li:hover, .section-plan > .ul-plans > li:active {
   background: linear-gradient(45deg, #fb7b6b 40%, #e7d39f);
   cursor: pointer;
 }
 
-.section-plan .ul-plans > li.li-plus {
+.section-plan > .ul-plans > li.li-plus {
   color: whitesmoke;
   background: linear-gradient(45deg, #522d5b 5%, #d7385e, #fb7b6b);
 }
 
-.section-plan .ul-plans > li.li-plus:hover, .section-plan .ul-plans > li.li-plus:active {
+.section-plan > .ul-plans > li.li-plus:hover, .section-plan > .ul-plans > li.li-plus:active {
   background: linear-gradient(45deg, #522d5b 40%, #d7385e, #fb7b6b);
 }
 /*# sourceMappingURL=03-section-plans.css.map */

@@ -9,14 +9,14 @@
     background-position: top 24% left 12%;
     height: 600px;
 
-    h1{
+    &>h1{
         color: whitesmoke;
         margin: 0;
         font-family: 'Salsa';
         font-size: 5rem;
     }
 
-    h2{
+    &>h2{
         color: whitesmoke;
         top: 150px;
         right: 300px;

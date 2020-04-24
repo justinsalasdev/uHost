@@ -15,7 +15,7 @@ body {
           flex-direction: column;
 }
 
-.main-packages a {
+.main-packages > a {
   text-decoration: none;
   color: white;
   background-color: #43244b;
@@ -26,16 +26,16 @@ body {
           box-shadow: 3px 3px 7px black;
 }
 
-.main-packages a article h2 {
+.main-packages > a > article > h2 {
   color: goldenrod;
   margin: 0;
 }
 
-.main-packages a.a-plus {
+.main-packages > a.a-plus {
   position: relative;
 }
 
-.main-packages a.a-plus article footer {
+.main-packages > a.a-plus > article > footer {
   padding: 4px;
   margin: 10px;
   background-color: goldenrod;
@@ -44,16 +44,16 @@ body {
   right: 0;
 }
 
-.main-packages a.a-plus article footer p {
+.main-packages > a.a-plus > article > footer > p {
   margin: 0px;
 }
 
-.main-packages a.a-free {
+.main-packages > a.a-free {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
 
-.main-packages a:hover, .main-packages a:active {
+.main-packages > a:hover, .main-packages > a:active {
   background-color: #632d70;
 }
 /*# sourceMappingURL=01-main.css.map */
