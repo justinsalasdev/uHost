@@ -1,0 +1,90 @@
+
+.section-plan{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:#591568;
+
+    h1{
+        margin: 0;
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+
+    .ul-plans{
+        padding-left: 25%;
+        padding-right: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        flex-wrap: wrap;
+
+
+        &>li{   
+            background: linear-gradient(45deg,#fb7b6b ,#e7d39f);
+            box-shadow: 5px 5px 8px black;
+
+            list-style: none;
+            flex-basis: 250px;
+            flex-shrink: 0;
+            padding: 10px;
+            margin: 20px 20px 0 20px;
+            position: relative;
+
+
+            article{
+                box-sizing: border-box;
+                
+
+                aside{
+                    padding: 3.9px;
+                    background-color: #522d5b;
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+
+                    p{
+                        margin: 0;
+                        color: goldenrod;
+                        font-size: .8rem;
+                    }
+
+                }
+
+                .p-price{
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                }
+                
+
+                ul{
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    
+                    li{
+                        list-style: none;
+                        margin: 5px;
+                    }
+                }
+
+            }
+
+            &:hover,&:active{
+                background: linear-gradient(45deg,#fb7b6b 40%,#e7d39f);
+                cursor: pointer;
+            }
+
+            &.li-plus{
+                color: whitesmoke;
+                background: linear-gradient(45deg,#522d5b 5%,#d7385e ,#fb7b6b);
+
+                &:hover,&:active{
+                background: linear-gradient(45deg,#522d5b 40%,#d7385e ,#fb7b6b);
+
+                }
+            }
+        }
+    }
+}

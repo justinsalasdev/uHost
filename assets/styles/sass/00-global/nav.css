@@ -1,0 +1,72 @@
+nav {
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #320a3b;
+  color: #041a11;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .a-brand div {
+  margin-left: 10px;
+  width: 3rem;
+  height: 3rem;
+  background: url("../../../icons/uHost.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav .div-nav-items ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav .div-nav-items ul li {
+  color: whitesmoke;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: auto 10px;
+  padding: 8px;
+}
+
+nav .div-nav-items ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav .div-nav-items ul li:hover, nav .div-nav-items ul li:active {
+  color: white;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+nav .div-nav-items ul li.li-best-option {
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #c24a64;
+}
+
+nav .div-nav-items ul li.li-best-option:hover, nav .div-nav-items ul li.li-best-option:active {
+  color: #a5304d;
+  background-color: whitesmoke;
+  border-bottom: none;
+}
+/*# sourceMappingURL=nav.css.map */

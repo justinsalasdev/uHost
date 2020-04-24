@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(30deg,#522d5b 5%,#d7385e,#fb7b6b,#e7d39f);
+    background-attachment: fixed;
+}
+
+.main-packages{
+    margin-top: 68px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: #43244b;
+        padding: 40px;
+        margin: 30px;
+        width: 55%;
+
+        box-shadow: 3px 3px 7px black;
+
+
+        article{
+           
+            h2{
+                color: goldenrod;
+                margin:0;
+            }
+
+
+        }
+
+        
+        &.a-plus{
+            position: relative;
+
+            article{
+
+                footer{
+                    padding: 4px;
+                    margin: 10px;
+                    background-color: goldenrod;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    p{
+                        margin: 0px;
+                    }
+
+                }
+           
+            }
+
+        }
+
+        &.a-free{
+            align-self: flex-end;
+        }
+
+        &:hover,&:active{
+            background-color: #632d70;
+        }
+
+    }
+
+
+}

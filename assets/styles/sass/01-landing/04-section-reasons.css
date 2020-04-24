@@ -1,0 +1,74 @@
+.section-reasons {
+  padding-top: 0;
+  text-align: center;
+  color: white;
+  background-color: #480858;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-reasons h2 {
+  width: 60%;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.section-reasons ul {
+  padding: 0;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-reasons ul li {
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.section-reasons ul li div {
+  width: 150px;
+  height: 150px;
+}
+
+.section-reasons ul li div.div-happy {
+  background: url("../../../icons/happyCustomer.svg") center/cover no-repeat;
+}
+
+.section-reasons ul li div.div-uptime {
+  background: url("../../../icons/upTime.svg") center/cover no-repeat;
+}
+
+.section-reasons ul li div.div-fast {
+  background: url("../../../icons/fast.svg") center/cover no-repeat;
+}
+
+.section-reasons ul li p {
+  font-weight: bold;
+}
+/*# sourceMappingURL=04-section-reasons.css.map */
