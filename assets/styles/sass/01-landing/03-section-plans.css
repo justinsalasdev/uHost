@@ -1,0 +1,97 @@
+.section-plan {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #591568;
+}
+
+.section-plan h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.section-plan .ul-plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-plan .ul-plans > li {
+  background-color: #e7d39f;
+  -webkit-box-shadow: 5px 5px 8px black;
+          box-shadow: 5px 5px 8px black;
+  list-style: none;
+  -ms-flex-preferred-size: 250px;
+      flex-basis: 250px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 10px;
+  margin: 20px 20px 0 20px;
+  position: relative;
+}
+
+.section-plan .ul-plans > li article {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-plan .ul-plans > li article aside {
+  padding: 3.9px;
+  background-color: #522d5b;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.section-plan .ul-plans > li article aside p {
+  margin: 0;
+  color: gold;
+  font-size: .8rem;
+}
+
+.section-plan .ul-plans > li article .p-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.section-plan .ul-plans > li article ul {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.section-plan .ul-plans > li article ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+.section-plan .ul-plans > li:hover, .section-plan .ul-plans > li:active {
+  background-color: #e2ba54;
+  cursor: pointer;
+}
+
+.section-plan .ul-plans > li.li-plus {
+  background-color: #fb7b6b;
+}
+
+.section-plan .ul-plans > li.li-plus:hover, .section-plan .ul-plans > li.li-plus:active {
+  background-color: #f75944;
+}
+/*# sourceMappingURL=03-section-plans.css.map */
