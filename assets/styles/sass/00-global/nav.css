@@ -7,7 +7,7 @@ nav {
   z-index: 1;
   background-color: #320a3b;
   color: #041a11;
-  padding: 10px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,8 +21,8 @@ nav {
 
 nav > .a-brand > div {
   margin-left: 10px;
-  width: 3rem;
-  height: 3rem;
+  width: 50px;
+  height: 50px;
   background: url("../../../icons/uHost.svg") center/cover no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@ nav > .div-nav-items > ul {
 nav > .div-nav-items > ul > li {
   color: whitesmoke;
   list-style: none;
-  font-size: 1.1rem;
+  font-size: 18px;
   font-weight: 700;
   margin: auto 10px;
   padding: 8px;
