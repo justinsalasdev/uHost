@@ -27,8 +27,13 @@ body {
 }
 
 .main-packages > a > article > h2 {
+  font-size: 24px;
   color: goldenrod;
   margin: 0;
+}
+
+.main-packages > a > article > h3 {
+  font-size: 18.8px;
 }
 
 .main-packages > a.a-plus {
@@ -45,6 +50,7 @@ body {
 }
 
 .main-packages > a.a-plus > article > footer > p {
+  font-size: 16px;
   margin: 0px;
 }
 

@@ -7,7 +7,7 @@
 
 .section-plan > h2 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 32px;
   color: whitesmoke;
 }
 
@@ -45,6 +45,10 @@
           box-sizing: border-box;
 }
 
+.section-plan > .ul-plans > li > article > h2 {
+  font-size: 24px;
+}
+
 .section-plan > .ul-plans > li > article > footer {
   padding: 3.9px;
   background-color: #522d5b;
@@ -56,7 +60,7 @@
 .section-plan > .ul-plans > li > article > footer > p {
   margin: 0;
   color: goldenrod;
-  font-size: .8rem;
+  font-size: 12.8px;
 }
 
 .section-plan > .ul-plans > li > article > .p-price {

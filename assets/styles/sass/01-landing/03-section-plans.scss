@@ -10,7 +10,7 @@
 
     &>h2{
         margin: 0;
-        font-size: 2rem;
+        font-size: 32px;
         color: whitesmoke;
     }
 
@@ -37,8 +37,11 @@
             &>article{
                 box-sizing: border-box;
 
-                
+                &>h2{
+                    font-size: 24px;
+                }
 
+                
                 &>footer{
                     padding: 3.9px;
                     background-color: #522d5b;
@@ -49,7 +52,7 @@
                     &>p{
                         margin: 0;
                         color: goldenrod;
-                        font-size: .8rem;
+                        font-size: 12.8px;
                     }
 
                 }
