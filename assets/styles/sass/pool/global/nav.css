@@ -12,9 +12,6 @@ nav {
   align-items: center;
   transition: height 0.1s;
 }
-nav.nav-event-expand {
-  height: 80px;
-}
 nav > .a-brand > div {
   margin-left: 10px;
   width: 50px;
@@ -65,18 +62,6 @@ nav > .div-nav-button > div {
   height: 8px;
   width: 30px;
   border-bottom: 2px solid whitesmoke;
-}
-
-@media only screen and (max-width: 530px) {
-  nav > .ul-nav-items {
-    position: absolute;
-    top: -200%;
-  }
-
-  nav > .div-nav-button {
-    display: initial;
-    margin-bottom: 5px;
-  }
 }
 
 /*# sourceMappingURL=nav.css.map */

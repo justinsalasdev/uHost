@@ -9,6 +9,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 607px) {
+  .main-packages {
+    align-items: center;
+  }
+}
 .main-packages > a {
   text-decoration: none;
   color: white;
@@ -17,6 +22,11 @@ body {
   margin: 30px 30px 0 30px;
   width: 55%;
   box-shadow: 3px 3px 7px black;
+}
+@media (max-width: 607px) {
+  .main-packages > a {
+    width: 100%;
+  }
 }
 .main-packages > a > article > h2 {
   font-size: 24px;
@@ -49,22 +59,13 @@ body {
 .main-packages > a.a-free {
   align-self: flex-end;
 }
-.main-packages > a:hover, .main-packages > a:active {
-  background-color: #632d70;
-}
-
-@media only screen and (max-width: 607px) {
-  .main-packages {
-    align-items: center;
-  }
-
-  .main-packages > a {
-    width: 100%;
-  }
-
+@media (max-width: 607px) {
   .main-packages > a.a-free {
     align-self: center;
   }
+}
+.main-packages > a:hover, .main-packages > a:active {
+  background-color: #632d70;
 }
 
 /*# sourceMappingURL=main.css.map */

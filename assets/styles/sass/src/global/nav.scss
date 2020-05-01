@@ -18,11 +18,6 @@ nav{
 
     transition: height .1s;
 
-&.nav-event-expand{
-    height: 80px;
-}
-
-
     &>.a-brand{
         &>div{
             margin-left: 10px;
@@ -89,26 +84,5 @@ nav{
     }
 
 }
-
-
-
-
-
-@media only screen and (max-width: 530px) {
-
-    nav > .ul-nav-items {
-        position: absolute;
-        top: -200%;     
-    }
-    
-    nav > .div-nav-button {
-    display: initial;
-    margin-bottom: 5px;
-    }
-
-
-  }
-
-
 
 

@@ -9,6 +9,10 @@ body{
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 607px){
+        align-items: center;
+    }
+
     
     &>a{
         text-decoration: none;
@@ -19,6 +23,10 @@ body{
         width: 55%;
 
         box-shadow: 3px 3px 7px black;
+
+        @media (max-width:607px){
+            width: 100%;
+        }
 
 
         &>article{
@@ -67,6 +75,9 @@ body{
 
         &.a-free{
             align-self: flex-end;
+            @media (max-width:607px){
+                align-self: center;
+            }
         }
 
         &:hover,&:active{
@@ -78,20 +89,3 @@ body{
 
 }
 
-
-@media only screen and (max-width: 607px) {
-
-    .main-packages {
-        align-items: center;
-      }
-
-    .main-packages > a{
-        width: 100%;
-    }
-      
-
-    .main-packages > a.a-free {
-            align-self: center;
-      }
-
-  }

@@ -9,6 +9,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 902px) {
+  .main-customers {
+    align-items: center;
+  }
+}
 .main-customers > article {
   background-image: linear-gradient(30deg, #3e2444, #702a81);
   color: whitesmoke;
@@ -25,9 +30,23 @@ body {
   width: 30%;
   min-width: 250px;
 }
+@media (max-width: 902px) {
+  .main-customers > article > img {
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    min-width: initial;
+  }
+}
 .main-customers > article > div {
   flex-shrink: 0;
   width: 50%;
+}
+@media (max-width: 902px) {
+  .main-customers > article > div {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 .main-customers > article > div > h2 {
   font-size: 24px;
@@ -49,24 +68,7 @@ body {
 .main-customers > article.article-john-mellow > img {
   margin-left: 20px;
 }
-
-@media only screen and (max-width: 902px) {
-  .main-customers {
-    align-items: center;
-  }
-
-  .main-customers > article > img {
-    margin-right: 0;
-    padding: 0;
-    width: 100%;
-    min-width: initial;
-  }
-
-  .main-customers > article > div {
-    margin-top: 20px;
-    width: 100%;
-  }
-
+@media (max-width: 902px) {
   .main-customers > article.article-john-mellow {
     align-self: center;
     text-align: left;
