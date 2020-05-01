@@ -1,0 +1,21 @@
+.footer-main {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #260130;
+  display: flex;
+  justify-content: center;
+}
+.footer-main > p {
+  display: inline-block;
+  margin-left: 20px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.footer-main > p:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=footer.css.map */

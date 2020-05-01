@@ -1,12 +1,12 @@
+@import '../sass/pool/global/html.css';
+@import '../sass/pool/global/body.css';
 
-@import '../sass/00-global/resets.css';
-@import '../sass/00-global/fonts.css';
+    @import '../sass/pool/global/nav.css';
+    @import '../sass/pool/landing/main.css';
+        @import '../sass/pool/landing/header-main.css';
+        @import '../sass/pool/landing/section-plans.css';
+        @import '../sass/pool/landing/section-reasons.css';
+
+@import '../sass/pool/global/footer.css';
 
 
-@import '../sass/00-global/body.css';
-    @import '../sass/00-global/nav.css';
-    @import '../sass/01-landing/01-main.css';
-        @import '../sass/01-landing/02-header-main.css';
-        @import '../sass/01-landing/03-section-plans.css';
-        @import '../sass/01-landing/04-section-reasons.css';
-    @import '../sass/00-global/footer.css';

@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(-30deg, #522d5b 5%, #d7385e, #fb7b6b, #e7d39f);
+  background-attachment: fixed;
+}
+
+.main-packages {
+  margin-top: 60px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.main-packages > a {
+  text-decoration: none;
+  color: white;
+  background-color: #43244b;
+  padding: 30px;
+  margin: 30px 30px 0 30px;
+  width: 55%;
+  box-shadow: 3px 3px 7px black;
+}
+.main-packages > a > article > h2 {
+  font-size: 24px;
+  color: goldenrod;
+}
+.main-packages > a > article > h3 {
+  margin-top: 10px;
+  font-size: 18.8px;
+}
+.main-packages > a > article > p {
+  margin-top: 10px;
+}
+.main-packages > a.a-plus {
+  position: relative;
+}
+.main-packages > a.a-plus > article {
+  margin-top: 15px;
+}
+.main-packages > a.a-plus > article > footer {
+  padding: 4px;
+  margin: 10px;
+  background-color: goldenrod;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main-packages > a.a-plus > article > footer > p {
+  font-size: 16px;
+}
+.main-packages > a.a-free {
+  align-self: flex-end;
+}
+.main-packages > a:hover, .main-packages > a:active {
+  background-color: #632d70;
+}
+
+@media only screen and (max-width: 607px) {
+  .main-packages {
+    align-items: center;
+  }
+
+  .main-packages > a {
+    width: 100%;
+  }
+
+  .main-packages > a.a-free {
+    align-self: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
